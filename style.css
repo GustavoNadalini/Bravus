@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+body {
+    background-image: url(assets/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+#home {
+    display: flex;
+    width: auto;
+    align-items: center;
+    padding: 40px;
+    background-color: #524338b6;
+    padding-left: 160px;
+}
+
+#home a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 10px;
+    
+}
+
+#home a:hover {
+    text-decoration: underline;
+}
+
+.button-login {
+    background-color: #E37221;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    cursor: pointer;    
+    padding: 3px;
+    position: absolute;
+    right: 100px;
+}
+
+.button-login:hover {
+    background-color: #e06913;
+}
+
+#home i {
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+    color: #fff;
+}
+
+#home div img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 30px;
+}
+
+#divisor {
+    width: 100%;
+    height: 4px;
+    background-color: #EE721E;
+}
+
+section {
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+
+section h2{
+    margin: 0px 0px 35px 15px;
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+}
+
+.box {
+    display: flex;
+    background-color: #524338b6;
+    margin: 15px;
+    cursor: pointer;
+    width: 70vw;
+    border-radius: 10px;
+    border: solid 2px #eb752179;
+    box-shadow: inset 1px 1px 30px 5px black;
+}
+
+.box:hover {
+    border: solid 2px #eb7521;
+    box-shadow: none;
+}
+
+.box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    
+}
+
+.box .info {
+    padding: 15px;
+    color: white;
+}
+
+.preco {
+  background-color: #E47221;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 16%;
+  border-radius: 10px;
+  text-shadow: 1px 1px 5px black;
+}
+
+footer {
+    display: flex;
+    background-color: #524338b6;
+    color: #fff;
+    padding: 10px;
+}
+
+.redes {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp {
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+}
+
+footer img {
+    width: 25px;
+    height: 25px;
+    border-radius: 30%;
+}
+
+.sigin {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sigin h3{
+    margin: 10px;
+}
+
+input {
+    width: 70%;
+    height: 40px;
+    margin: 10px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background-color: #fdfdfdb6;
+    padding-left: 15px;
+}
+
+input::placeholder {
+    color: #0e0c0cbb;
+}
+
+button {
+    width: 50%;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    
+    background-color: #e06913;
+    color: #fff;
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f56600;
+}
